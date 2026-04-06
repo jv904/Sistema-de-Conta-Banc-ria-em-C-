@@ -15,6 +15,7 @@ Criar uma conta bancária com ou sem depósito inicial
 Realizar depósitos
 Realizar saques (com taxa de R$ 5,00 por operação)
 Exibir os dados da conta atualizados
+
 🧱 Estrutura do Projeto
 
 O projeto é dividido em duas partes principais:
