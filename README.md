@@ -2,16 +2,15 @@ Sistema de Conta Bancária em C#
 
 Este é um projeto simples desenvolvido em C# com o objetivo de praticar conceitos fundamentais de programação orientada a objetos (POO), como:
 
-Encapsulamento
+Encapsulamento.
 
-Construtores
+Construtores.
 
-Sobrecarga de métodos
+Sobrecarga de métodos.
 
+Propriedades.
 
-Propriedades
-
-Métodos de instância
+Métodos de instância.
 
 
 📌 Funcionalidades
