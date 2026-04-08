@@ -1,4 +1,5 @@
-﻿using System.Globalization;
+﻿using System.Drawing;
+using System.Globalization;
 
 namespace Praticar
 {
@@ -19,14 +20,21 @@ namespace Praticar
         {
             Saldo = saldo;
         }
-
         public void Deposito(double quantia) { 
+            if( quantia <= 0.0 ) {
+                Console.WriteLine("Erro: valor de depósito inválido!");
+                return;
+        }
             Saldo += quantia;
         
         }
 
         public void Saque(double quantia)
         {
+            if (quantia <= 0.0)
+            {
+                Console.WriteLine("Erro: valor de depósito inválido!");
+            }
             Saldo -= quantia + 5.0;
         }
 
